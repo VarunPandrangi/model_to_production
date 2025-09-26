@@ -1,0 +1,24 @@
+# Core ML libraries
+torch>=2.0.0
+transformers>=4.35.0
+bitsandbytes>=0.41.0
+accelerate>=0.20.0
+
+# Web framework and API
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0.0
+
+# Security and rate limiting
+slowapi>=0.1.9
+fastapi-limiter>=0.1.6
+redis>=4.5.0
+python-multipart>=0.0.6
+
+# Monitoring and observability
+prometheus-client>=0.17.0
+psutil>=5.9.0
+
+# Utilities
+python-json-logger>=2.0.0
+requests>=2.31.0
